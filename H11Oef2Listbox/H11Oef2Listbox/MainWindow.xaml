@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="SelectionMode: Single" HorizontalAlignment="Left" Margin="39,69,0,0" VerticalAlignment="Top" Width="163"/>
+        <Label Content="SelectionMode: Single" HorizontalAlignment="Left" Margin="446,69,0,0" VerticalAlignment="Top" Width="163"/>
+        <TextBox x:Name="replaceTextBox" HorizontalAlignment="Left" Height="26" Margin="224,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="addTextBox" HorizontalAlignment="Left" Height="26" Margin="224,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Height="26" Margin="224,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="replaceButton" Content="Vervangen" HorizontalAlignment="Left" Margin="327,69,0,0" VerticalAlignment="Top" Height="26" Width="94"/>
+        <Button x:Name="searchButton" Content="Zoeken" HorizontalAlignment="Left" Margin="327,183,0,0" VerticalAlignment="Top" Height="26" Width="94"/>
+        <Button x:Name="addButton" Content="Toevoegen" HorizontalAlignment="Left" Margin="327,123,0,0" VerticalAlignment="Top" Height="26" Width="94"/>
+        <Button x:Name="deleteButton" Content="Item verwijderen" HorizontalAlignment="Left" Height="28" Margin="39,358,0,0" VerticalAlignment="Top" Width="137"/>
+        <Button x:Name="sortButton" Content="Sorteren" HorizontalAlignment="Left" Height="28" Margin="355,358,0,0" VerticalAlignment="Top" Width="137"/>
+        <Button x:Name="clearButton" Content="Listbox leegmaken" HorizontalAlignment="Left" Height="28" Margin="196,358,0,0" VerticalAlignment="Top" Width="136"/>
+        <ListBox Margin="39,106,598,99" x:Name="simpleListBox"/>
+        <ListBox Margin="446,106,191,99" SelectionMode="Multiple"/>
+        <Label x:Name="searchLabel" Content="" HorizontalAlignment="Left" Margin="224,221,0,0" VerticalAlignment="Top" Width="197"/>
 
     </Grid>
 </Window>
